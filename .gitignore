@@ -1,0 +1,35 @@
+# Python Virtual Environment
+.venv/
+venv/
+
+# Python Cache Files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment Variables & Passwords
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# VS Code & System Files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large Dataset Files
+data/Loan_default.csv
+data/loan_cleaned.csv
+
+# Duplicate Power BI File
+data/*.pbix
+
+# Demo Video (upload separately on LinkedIn)
+demo/*.mp4
+
+# Temporary Files
+*.log
+*.tmp
+.ipynb_checkpoints/
